@@ -1,0 +1,21 @@
+### TYPESCRIPT LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+    NAME                TypeScript
+    VERSION             1
+
+    COMMENT             (?default)
+    STRING              (?default)
+  	REGEX:COMMENT		/([^/]|(?<=\\)/)+/[gmiys]
+
+    STATEMENT           (?default)
+    TYPE                (?default)
+    RESERVED            (?default)|\b(?<![:\.])(?-i:(?alt:reserved.txt))(?![:\.])\b
+    MODIFIER            (?default)
+    VARIABLE            (?default)
+    IDENTIFIER          (?default)
+    CONSTANT            (?default)
+    OPERATOR            (?default)
+    SYMBOL              (?default)
+    ENTITY              (?default)

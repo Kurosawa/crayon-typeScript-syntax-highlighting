@@ -19,7 +19,7 @@ import
 in
 instanceof
 let
-new '
+new
 return
 super
 switch
